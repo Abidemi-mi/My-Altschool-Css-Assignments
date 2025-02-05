@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Assignment 5</title>
+  </head>
+  <body>
+    <nav class="home-button">
+      <a href="/index.html" target="#">Home Page</a>
+    </nav>
+    <section class="background">
+      <nav>
+        <img src="./Images/wppusher-logo copy.png" alt="" />
+
+        <ul class="links">
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Learn more</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Help</a></li>
+
+          <a href="#"><button class="btn">Account</button></a>
+        </ul>
+      </nav>
+
+      <section class="main-wrapper">
+        <main>
+          <header>
+            <h2>Checkout</h2>
+          </header>
+
+          <!-- BASIC INFORMATION -->
+          <div class="basic-info">
+            <h2 class="step-h2">
+              <span class="step-number">1</span> Your Basic Information
+            </h2>
+
+            <div class="input-wrapper">
+              <div class="top-input">
+                <div class="f-name">
+                  <label for="f-name">First Name</label>
+                  <input type="text" id="f-name" required placeholder="Jane" />
+                </div>
+
+                <div class="l-name">
+                  <label for="l-name">Last Name</label>
+                  <input type="text" id="l-name" required placeholder="Doe" />
+                </div>
+              </div>
+
+              <div class="email">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  required
+                  placeholder="abidemibashir.dev@gmail.com"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- PAYMENT INFORMATION -->
+          <div class="payment-container">
+            <h2 class="step-h2">
+              <span class="step-number">2</span> Your Payment Information
+            </h2>
+
+            <label for="card-number">Credit Card</label>
+            <div class="card-input">
+              <input type="text" id="card-number" placeholder="Card Number" />
+              <input type="text" id="expiry" placeholder="MM / YY" />
+              <input type="text" id="cvc" placeholder="CVC" />
+            </div>
+          </div>
+
+          <!-- BUY WP PUSHER -->
+          <div class="buy">
+            <a href="#" class="buy-wp">Buy WP Pusher</a>
+            <h2 class="need-help">
+              <span class="step-number">?</span>
+              <p>
+                Need any help? <span class="hesitate"> Don't hesitate to</span>
+                <a href="#"
+                  ><span class="border-bottom">contact</span> support!
+                </a>
+              </p>
+            </h2>
+
+            <h3>Powered by <span class="stripe">Stripe</span></h3>
+          </div>
+        </main>
+
+        <!-- ASIDE -->
+        <aside>
+          <div class="aside-cintent-wrapper">
+            <div class="pricing-card content-1">
+              <h2>Freelancer</h2>
+              <p class="price">
+                <span class="dollar-sign">$</span><span class="amount">99</span>
+                <span class="per-year">/ year</span>
+              </p>
+              <p class="renewal">
+                <em
+                  >Automatically renews <br />
+                  after 1 year</em
+                >
+              </p>
+            </div>
+
+            <div class="feature-container content-2">
+              <ul>
+                <li>
+                  <span class="checkmark">✔</span> Use on
+                  <strong>5</strong> client sites
+                </li>
+                <li><span class="checkmark">✔</span> Private repositories</li>
+                <li><span class="checkmark">✔</span> Email support</li>
+              </ul>
+            </div>
+
+            <div class="content-3">
+              <p>Need<strong>20</strong>client sites?</p>
+
+              <h3>Switch to the Agency plan</h3>
+            </div>
+
+            <div class="content-4">
+              <p>
+                FTP is horrible to deal with. <br />
+                <strong>WP Pusher</strong>solves that issue, <br />
+                and the customer support is awesome!
+              </p>
+
+              <div class="picture">
+                <img src="/Images/Bitmap.png" alt="" />
+                <p>Kirk Beard</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <footer>
+        <p>&copy; 2018 WP Pusher IVS . <a href="#">Terms of Service</a></p>
+      </footer>
+    </section>
+  </body>
+</html>

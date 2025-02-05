@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  height: auto;
+  background-color: #b5b3d7;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
+  border: 16px solid #fff;
+}
+
+.card-wrapper {
+  width: 80%;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-wrapper .top {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+}
+
+.top img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-wrapper .top .badge {
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  font-weight: 800;
+  padding-left: 0.7em;
+  padding-right: 1em;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  border-radius: 0px 50px 5cap 0px;
+  text-align: start;
+  color: #000;
+  background-color: #f9e29c;
+  box-shadow: inset o o o I px rgba(o, o, o, 15), o I O zrgba(o, o, o, I);
+}
+
+.card-wrapper .down {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0px 0px 10px 10px;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.card-wrapper .down p {
+  margin-top: 1em;
+  font-size: 1.4em;
+  color: #555;
+}
+
+.card-wrapper .down .span-1,
+.span-2 {
+  color: gray;
+  font-size: 0.8em;
+}
+
+/* Go back to home */
+.home-button {
+  margin: 30px 0;
+  width: 100%;
+}
+
+.home-button a {
+  text-decoration: none;
+  color: white;
+  background: #3498db;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+}
+
+.home-button a:hover {
+  background: #2980b9;
+}

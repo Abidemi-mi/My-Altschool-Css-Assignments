@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Assignment-4</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="home-button">
+      <a href="/index.html" target="#">Home Page</a>
+    </nav>
+    <div class="background">
+      <p class="p-1">Sign Up | Individual</p>
+      <div class="container">
+        <div class="header">
+          <p>9:41</p>
+
+          <ul>
+            <li><i class="fa-solid fa-signal"></i></li>
+            <li><i class="fa-duotone fa-solid fa-wifi"></i></li>
+            <li><i class="fa-solid fa-battery-three-quarters"></i></li>
+            <li></li>
+          </ul>
+        </div>
+        <section class="left">
+          <div class="content-wrapper">
+            <img src="./images/Logo.png" alt="" />
+            <h2>For Individuals</h2>
+            <p class="desktop-p">
+              Start benefiting from the wellness experience. For <br />
+              companies looking on increasing productivity, and improving <br />
+              organization wellness.
+            </p>
+            <p class="mobile-p">
+              Inspiring wholesome harmony for the mind, <br />
+              body and spirit, for everyone, everywhere.
+            </p>
+          </div>
+        </section>
+
+        <!-- RIGHT SIDE SECTION -->
+
+        <!-- FIRST NAME -->
+        <section class="right">
+          <div class="form-wrapper">
+            <div class="input">
+              <label for="first-name">First Name</label>
+              <input type="text" placeholder="Tolu" required />
+            </div>
+
+            <!-- LAST NAME -->
+            <div class="input">
+              <label for="last-name">Last Name</label>
+              <input type="text" placeholder="Abidemi" required />
+            </div>
+          </div>
+
+          <!-- GENDER -->
+          <div class="form-wrapper">
+            <div class="input">
+              <label for="gender">Gender</label>
+              <select name="gender" required>
+                <option value="" disabled selected>Select here</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+
+            <!-- DATE OF BIRTH -->
+            <div class="input">
+              <label for="dob">Date of Birth </label>
+              <input type="date" required placeholder="Select here" />
+            </div>
+          </div>
+
+          <!-- WIEGHT -->
+          <div class="form-wrapper">
+            <div class="input">
+              <label for="Weight (KG)">Weight (KG) </label>
+              <input type="number" placeholder="Enter Weight" required />
+            </div>
+
+            <!-- HEIGHT -->
+            <div class="input">
+              <label for="Height (CM)">Height (CM)</label>
+              <input
+                type="number"
+                placeholder="Enter height here..."
+                required
+              />
+            </div>
+          </div>
+
+          <!-- ACTIVITY -->
+          <div class="input">
+            <label for="activity">Activity Level </label>
+            <select name="activity" id="activity" class="select">
+              <option value="" disabled selected>Select here</option>
+              <option value="Male">Jumping</option>
+              <option value="Female">Running</option>
+              <option value="Others">Soccer</option>
+            </select>
+          </div>
+
+          <!-- PASSWORD -->
+          <div class="input password">
+            <label for="password">Password </label>
+            <div class="password-i">
+              <input
+                class="input-1"
+                type="password"
+                required
+                placeholder="Enter password"
+              />
+              <i class="fa-solid fa-eye-slash"></i>
+            </div>
+          </div>
+
+          <!-- BUTTON -->
+          <button type="submit" class="btn">Register</button>
+
+          <p class="terms">
+            By clicking Register, you agree to our
+            <span>Terms of Use </span> and our
+            <span> Privacy Policy. </span>
+          </p>
+        </section>
+        <p class="terms-1">
+          By clicking Register, you agree to our
+          <span>Terms of Use </span> and our
+          <span> Privacy Policy. </span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
